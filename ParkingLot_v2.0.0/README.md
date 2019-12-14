@@ -1,6 +1,6 @@
 #Problem Statement (Parking Lot)
 
-I own a multiÂ­storey parking lot that can hold up to 'n' cars at any given point in time. Each slot is given a number starting at 1 increasing with increasing distance from the entry point in steps of one. I want to create an automated ticketing system that allows my customers to use my parking lot without human intervention. 
+I own a multi­storey parking lot that can hold up to 'n' cars at any given point in time. Each slot is given a number starting at 1 increasing with increasing distance from the entry point in steps of one. I want to create an automated ticketing system that allows my customers to use my parking lot without human intervention. 
 
 When a car enters my parking lot, I want to have a ticket issued to the driver. The ticket issuing process includes us documenting the registration number (number plate) and the colour of the car and allocating an available parking slot to the car before actually handing over a ticket to the driver (we assume that our customers are nice enough to always park in the slots allocated to them). The customer should be allocated a parking slot which is nearest to the entry. At the exit the customer returns the ticket which then marks the slot they were using as being available.
 
@@ -233,7 +233,7 @@ Slot No. Registration No Color
 Input:
 
 ```sh
-park KAÂ­01Â­PÂ­333 White
+park KA­01­P­333 White
 ```
 
 Output:
@@ -245,7 +245,7 @@ Allocated slot number: 4
 Input:
 
 ```sh
-park DLÂ­12Â­AAÂ­9999 White
+park DL­12­AA­9999 White
 ```
 
 Output:
@@ -322,8 +322,8 @@ mvn clean install
 From the project directory, run this command - 
 
 ```java
-   $ java -jar target/gojek-1.0.jar (Interactive command-line mode)
-   $ java -jar target/gojek-1.0.jar <inputfile> (File input)
+   $ java -jar target/parklot-1.0.jar (Interactive command-line mode)
+   $ java -jar target/parklot-1.0.jar <inputfile> (File input)
 ```
    
 
